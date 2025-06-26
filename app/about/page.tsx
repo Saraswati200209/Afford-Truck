@@ -208,7 +208,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <img
-                src="/placeholder.svg?height=200&width=200&text=Kanishka+Chougai"
+                src="/images/Kanishka-Chougai.jpg"
                 alt="Kanishka Chougai - Owner and Founder of Afford Truck Stop"
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
