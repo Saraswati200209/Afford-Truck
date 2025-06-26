@@ -12,6 +12,7 @@ export function Navigation() {
     { href: "/", label: "Afford Truck Stop" },
     { href: "/menu", label: "Desi Dhaba" },
     { href: "/services", label: "Services" },
+    { href: "/products", label: "Products" },
     { href: "/about", label: "About Us" },
     { href: "/contact", label: "Contact" },
   ]
@@ -21,8 +22,8 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="text-xl font-serif italic text-white">
-            AffordTruckStop
+          <Link href="/" className="flex items-center">
+            <img src="/images/logo.jpeg" alt="Afford Truck Stop Logo" className="h-12 w-auto" />
           </Link>
 
           {/* Desktop Navigation - Hidden on mobile */}
