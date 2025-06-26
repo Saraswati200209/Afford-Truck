@@ -23,7 +23,7 @@ export default function HomePage() {
       <section
         className="relative min-h-screen flex flex-col items-center justify-center text-white"
         style={{
-          backgroundImage: "url('/images/afford.jpg')",
+          backgroundImage: "url('/images/afford-new.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -126,7 +126,7 @@ export default function HomePage() {
                   className="w-full h-full object-cover"
                   controls
                   preload="metadata"
-                  poster="/images/afford.jpg"
+                  poster="/images/afford-new.jpg"
                   aria-label="Afford Truck Stop facility tour video"
                 >
                   <source src="/videos/Affordtruckvideo.mp4" type="video/mp4" />
@@ -446,7 +446,11 @@ export default function HomePage() {
                   Kanishka and his family treat everyone like family."
                 </p>
                 <div className="flex items-center">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gray-300 rounded-full mr-4"></div>
+                  <img
+                    src="/images/mike-rodriguez.jpg"
+                    alt="Mike Rodriguez - Long-haul Trucker"
+                    className="w-10 h-10 sm:w-12 sm:h-12 rounded-full mr-4 object-cover"
+                  />
                   <div>
                     <p className="font-semibold text-sm sm:text-base">Mike Rodriguez</p>
                     <p className="text-xs sm:text-sm text-gray-500">Long-haul Trucker</p>
@@ -467,7 +471,11 @@ export default function HomePage() {
                   this my go-to stop every time I'm in Texas."
                 </p>
                 <div className="flex items-center">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gray-300 rounded-full mr-4"></div>
+                  <img
+                    src="/images/sarah-johnson.jpg"
+                    alt="Sarah Johnson - Frequent Traveler"
+                    className="w-10 h-10 sm:w-12 sm:h-12 rounded-full mr-4 object-cover"
+                  />
                   <div>
                     <p className="font-semibold text-sm sm:text-base">Sarah Johnson</p>
                     <p className="text-xs sm:text-sm text-gray-500">Frequent Traveler</p>
@@ -488,7 +496,11 @@ export default function HomePage() {
                   recommend to all drivers!"
                 </p>
                 <div className="flex items-center">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gray-300 rounded-full mr-4"></div>
+                  <img
+                    src="/images/david-chen.jpg"
+                    alt="David Chen - Fleet Manager"
+                    className="w-10 h-10 sm:w-12 sm:h-12 rounded-full mr-4 object-cover"
+                  />
                   <div>
                     <p className="font-semibold text-sm sm:text-base">David Chen</p>
                     <p className="text-xs sm:text-sm text-gray-500">Fleet Manager</p>
