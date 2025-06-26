@@ -21,9 +21,14 @@ export function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black text-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <Link href="/" className="flex items-center">
-            <img src="/images/logo.jpeg" alt="Afford Truck Stop Logo" className="h-12 w-auto" />
+          {/* Logo with Icon and Text */}
+          <Link href="/" className="flex items-center space-x-3">
+            <img
+              src="/images/afford-logo-icon.jpeg"
+              alt="Afford Truck Stop Logo"
+              className="h-10 w-10 object-contain"
+            />
+            <span className="text-xl font-serif italic text-white">AffordTruckStop</span>
           </Link>
 
           {/* Desktop Navigation - Hidden on mobile */}
@@ -61,6 +66,16 @@ export function Navigation() {
                 >
                   <X className="h-6 w-6" />
                 </Button>
+              </div>
+
+              {/* Mobile Logo */}
+              <div className="flex items-center space-x-3 mb-4">
+                <img
+                  src="/images/afford-logo-icon.jpeg"
+                  alt="Afford Truck Stop Logo"
+                  className="h-12 w-12 object-contain"
+                />
+                <span className="text-2xl font-serif italic text-gray-900">AffordTruckStop</span>
               </div>
 
               {navItems.map((item) => (
